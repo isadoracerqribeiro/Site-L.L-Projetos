@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lippo Leahy Arquitetura</title>
+<meta name="description" content="Escritório de arquitetura – portfólio e contato.">
+<link rel="icon" type="image/png" href="img/favicon.png">
+<link rel="apple-touch-icon" href="img/favicon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header">
+  <a href="index.html" class="logo"><img src="img/logo.png" alt="Lippo &amp; Leahy"><span class="lt"><b>LIPPO &amp; LEAHY</b><small>arquitetura</small></span></a>
+  <nav>
+    <a href="projetos.html" data-i18n="nav_projects">Projetos</a>
+    <a href="index.html#escritorio" data-i18n="nav_about">Escritório</a>
+    <a href="index.html#contato" data-i18n="nav_contact">Contato</a>
+    <span class="lang"><button data-lang="pt">PT</button>/<button data-lang="en">EN</button></span>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <h1 class="reveal" data-i18n="hero_title">Arquitetura com presença, silêncio e propósito.</h1>
+    <p class="reveal d1" data-i18n="hero_sub">Projetos residenciais, comerciais e de interiores.</p>
+  </section>
+
+  <section id="projetos" class="section">
+    <h2 class="label reveal" data-i18n="nav_projects">Projetos</h2>
+    <div class="grid g2" id="grid"></div>
+    <a class="more reveal" href="projetos.html" data-i18n="view_all">Ver todos os projetos →</a>
+  </section>
+
+  <section id="escritorio" class="split">
+    <div class="frame reveal"><img class="tint" src="img/escritorio.jpg" alt="" loading="lazy" onerror="this.onerror=null;this.src=PH"></div>
+    <div class="txt">
+      <h2 class="label reveal" data-i18n="nav_about">Escritório</h2>
+      <p class="big reveal d1" data-i18n="about_text">Espaços atemporais, onde luz, material e proporção conduzem cada decisão.</p>
+      <a class="more reveal d2" href="#contato" data-i18n="about_cta">Entre em contato →</a>
+    </div>
+  </section>
+
+  <section id="contato" class="split rev">
+    <div class="txt">
+      <h2 class="label reveal" data-i18n="nav_contact">Contato</h2>
+      <p class="big reveal d1" data-i18n="contact_text">Vamos conversar sobre o seu projeto.</p>
+      <div class="links reveal d2">
+        <a href="mailto:contato@seudominio.com.br">contato@seudominio.com.br</a>
+        <a href="https://wa.me/5582900000000" target="_blank" rel="noopener">WhatsApp</a>
+        <a href="https://www.instagram.com/lippo.leahy.arquitetura/" target="_blank" rel="noopener">Instagram</a>
+      </div>
+      <form class="reveal d2" id="form">
+        <input name="nome" required data-i18n-ph="f_name" placeholder="Nome">
+        <input name="email" type="email" required data-i18n-ph="f_email" placeholder="E-mail">
+        <textarea name="msg" rows="3" required data-i18n-ph="f_msg" placeholder="Mensagem"></textarea>
+        <button type="submit" data-i18n="f_send">Enviar</button>
+      </form>
+    </div>
+    <div class="frame reveal"><img class="tint" src="img/contato.jpg" alt="" loading="lazy" onerror="this.onerror=null;this.src=PH"></div>
+  </section>
+</main>
+
+<footer class="footer">© <span id="year"></span> Lippo Leahy Arquitetura</footer>
+
+<script src="projects.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
