@@ -67,7 +67,7 @@ function renderProject(){
     <section class="hero-p">
       ${img(p.hero||p.cover,p.title[lang],"")}
       <div class="hp-txt">
-        <h1 class="reveal">${p.title[lang]}</h1>
+        <h1 class="reveal${p.id === "Apartamento CB" ? " hp-title-apartment-cb" : ""}">${p.title[lang]}</h1>
         <div class="hp-meta reveal d1"><span>${p.year}</span><span>${p.place}</span><span>${p.type[lang]}</span></div>
         <p class="reveal d2">${p.desc[lang]}</p>
       </div>
