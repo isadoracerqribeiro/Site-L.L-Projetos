@@ -12,7 +12,7 @@ const PROJECTS = [
     cover: "img/Apartamento CB/capa.jpg",
     title: { pt: "Apartamento C|B", en: "Apartment C|B" },
     place: "Maceió, AL", year: "2023",
-    type: { pt: "Residencial", en: "Residential" },
+    type: { pt: "Reforma e Interiores", en: "Renovation & Interiors" },
     short: {
       pt: "Um apartamento que traduz a história de um casal entre dois polos: Miami e Maceió.",
       en: "An apartment that reflects a couple’s story, spanning two poles: Miami and Maceió."
@@ -26,11 +26,11 @@ const PROJECTS = [
       "img/Apartamento CB/18.jpg", "img/Apartamento CB/19.jpg", "img/Apartamento CB/20.jpg", "img/Apartamento CB/21.jpg", { src: "img/Apartamento CB/creuzaesandra.jpg", plan: true }]
   },
   {
-    id: "apartamento-exemplo-2", featured: true,
-    cover: "img/apto-2/capa.jpg",
-    title: { pt: "Apartamento Exemplo 2", en: "Example Apartment 2" },
-    place: "Maceió, AL", year: "2024",
-    type: { pt: "Interiores", en: "Interiors" },
+    id: "Apartamento PM", featured: true,
+    cover: "img/Apartamento PM/capa.jpg",
+    title: { pt: "Apartamento P|M", en: "Apartment P|M" },
+    place: "Maceió, AL", year: "2019",
+    type: { pt: "Reforma e Interiores", en: "Renovation & Interiors" },
     short: { pt: "Interiores em tons quentes, com marcenaria sob medida e vista para o mar.", en: "Warm-toned interiors with custom joinery and sea views." },
     desc: { pt: "Descrição do projeto.", en: "Project description." },
     images: ["img/apto-2/01.jpg", "img/apto-2/02.jpg", "img/apto-2/03.jpg"]
