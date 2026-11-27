@@ -14,16 +14,16 @@ const PROJECTS = [
     place: "Maceió, AL", year: "2023",
     type: { pt: "Residencial", en: "Residential" },
     short: {
-      pt: "Casa pensada para um casal, com área social integrada ao jardim e luz natural em todos os ambientes.",
-      en: "A house designed for a couple, with social areas opening to the garden and natural light throughout."
-    },
-    desc: {
       pt: "Um apartamento que traduz a história de um casal entre dois polos: Miami e Maceió.",
       en: "An apartment that reflects a couple’s story, spanning two poles: Miami and Maceió."
     },
+    desc: {
+      pt: "Um apartamento que traduz a história de um casal entre dois polos: Miami e Maceió.\nO projeto parte da estética clássica americana, com inspiração Hamptons, e ganha leveza tropical nos detalhes, nas texturas e na atmosfera.\n Entre identidade, equilíbrio e suavidade, os ambientes foram pensados para refletir uma forma de morar sofisticada, afetiva e cheia de personalidade.",
+      en: "An apartment that reflects a couple’s story, spanning two poles: Miami and Maceió.\nRooted in classic American design with Hamptons-inspired influences, the project embraces a tropical lightness through its details, textures, and atmosphere.\nWith a sense of identity, balance, and softness, each space was thoughtfully designed to reflect a sophisticated way of living—full of warmth, meaning, and personality."
+    },
     images: ["img/Apartamento CB/01.jpg", "img/Apartamento CB/02.jpg", "img/Apartamento CB/03.jpg", "img/Apartamento CB/04.jpg", "img/Apartamento CB/05.jpg", "img/Apartamento CB/06.jpg", "img/Apartamento CB/07.jpg", "img/Apartamento CB/08.jpg",
       "img/Apartamento CB/09.jpg", "img/Apartamento CB/10.jpg", "img/Apartamento CB/11.jpg", "img/Apartamento CB/12.jpg", "img/Apartamento CB/13.jpg", "img/Apartamento CB/14.jpg", "img/Apartamento CB/15.jpg", "img/Apartamento CB/16.jpg", "img/Apartamento CB/17.jpg", 
-      "img/Apartamento CB/18.jpg", "img/Apartamento CB/19.jpg", "img/Apartamento CB/20.jpg", "img/Apartamento CB/21.jpg", { src: "img/Apartamento CB/planta.jpg", plan: true }]
+      "img/Apartamento CB/18.jpg", "img/Apartamento CB/19.jpg", "img/Apartamento CB/20.jpg", "img/Apartamento CB/21.jpg", { src: "img/Apartamento CB/creuzaesandra.jpg", plan: true }]
   },
   {
     id: "apartamento-exemplo-2", featured: true,
