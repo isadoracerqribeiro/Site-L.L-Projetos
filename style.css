@@ -91,6 +91,7 @@ form button:hover{background:transparent;color:var(--fg);box-shadow:inset 0 0 0 
 .hero-p::after{content:"";position:absolute;inset:0;background:rgba(110,98,89,.6)}
 .hp-txt{position:relative;z-index:2;color:#fff;text-align:center;width:min(660px,88vw)}
 .hp-txt h1{font-weight:300;text-transform:uppercase;font-size:clamp(2.4rem,6vw,5rem);line-height:1.05}
+.hp-txt .hp-title-apartment-cb{width:min(1000px,88vw);margin-inline:calc((100% - min(1000px,88vw)) / 2)}
 .hp-txt h1::after{content:"";display:block;width:48px;height:3px;background:#fff;margin:20px auto 0}
 .hp-meta{display:flex;justify-content:space-between;gap:20px;margin:22px 0 18px;font-size:.8rem;font-weight:500}
 .hp-txt p{font-size:.88rem;line-height:1.6;font-weight:400;max-width:58ch;margin:0 auto}
